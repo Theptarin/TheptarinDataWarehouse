@@ -2,7 +2,7 @@ use ttr_hims;
 
 TRUNCATE TABLE lab_request ;
 
-LOAD DATA LOCAL INFILE '/var/www/service/TheptarinDataWarehouse/script/lab_request.csv'
+LOAD DATA LOCAL INFILE 'lab_request.csv'
 REPLACE INTO TABLE `lab_request`FIELDS TERMINATED BY ';'
 ENCLOSED BY '"' ESCAPED BY '\\' LINES TERMINATED BY '\n';
 
