@@ -1,0 +1,1 @@
+SELECT "PDGAN" AS "an", "PDGHN" AS "hn", "PDGADMDTE" - 5430000 AS "admit_date", "PDGADMTIM" * 100 AS "admit_time", "PDGDSCDTE" - 5430000 AS "discharge_date", "PDGDSCTIM" * 100 AS "discharge_time", "PDGROOMNO" AS "room_id", NOW( ) AS "update_time" FROM "TRHPFV5"."PATDCGV5PF" AS "PATDCGV5PF"

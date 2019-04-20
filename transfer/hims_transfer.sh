@@ -10,3 +10,5 @@ sh Db2MySQL.sh opd_doctor_visit
 
 sh Db2MySQL.sh xray_income
 sh Db2MySQL.sh inv_patient
+
+sh Db2MySQL.sh patient_discharge
